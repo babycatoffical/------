@@ -1,4 +1,11 @@
 table {
+    width: 540px;
+    height: 360px;
     border: 1px solid black;
     border-radius: 25%;
+    text-align: center;
+    margin: 0% auto;
+}
+h1 {
+
 }
