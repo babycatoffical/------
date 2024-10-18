@@ -1,11 +1,13 @@
-table {
+table, th, td {
     width: 540px;
     height: 360px;
     border: 1px solid black;
-    border-radius: 25%;
+    border-radius: 5%;
     text-align: center;
     margin: 0% auto;
 }
 h1 {
-
+    width: auto;
+    height: auto;
+    text-align: center;
 }
