@@ -1,0 +1,40 @@
+td {
+    width:  230px;      /* 너비 지정 */
+    height: 25px;    /* 표의 열 높이 지정 */
+    border: 1px, solid, black;  /* 표 선 색 지정 */
+    margin: 0 auto;
+    border-radius: 10%;  /* 표 열의 둥굴기 지정 */
+}
+table {
+    width:  230px;              /* 너비 지정 */
+    height: 25px;                /* 높이 지정 */
+    border: 1px, solid, black;  /* 색 지정 */
+    margin: 0 auto;
+    border-radius: 5%;  /* 표 자체의 둥굴기 지정 */
+}
+p {
+    text-align: center;
+}
+#blank {
+    border: 0;
+    background-color: rgb(256, 256, 256);
+}
+#button {
+    background-color: aqua;
+}
+#button:hover {
+    background-color: aquamarine;
+}
+#topname {
+    text-align: center;
+}
+#topdiv {
+    margin: 0% auto;
+}
+#topimg {
+    margin: 0% auto;
+    padding-left: 30%;
+    padding-bottom: 15%;
+    width: 250px;
+    height: auto;
+}
