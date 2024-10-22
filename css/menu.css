@@ -13,27 +13,33 @@ table {
     border-radius: 5%;  /* 표 자체의 둥굴기 지정 */
 }
 p {
-    text-align: center;
+    text-align: center;   /* 글자 위치 지정 */
+    color: black;   /*글자 색 지정 */
 }
-#blank {
+a {
+    text-decoration: none;  /* 하이퍼링크 밑줄 제거 */
+}
+#blank {    /* 안건드리는 것을 추천 */
     border: 0;
     background-color: rgb(256, 256, 256);
 }
 #button {
-    background-color: aqua;
+    background-color: aqua;    /* 버튼 색 지정 */
+    transition-property: background-color;  /* 건드리지 않는 것을 추천 */
+    transition: 0.3s ease;      /* 건드리지 않는 것을 추천 */
 }
 #button:hover {
     background-color: aquamarine;
 }
 #topname {
-    text-align: center;
+    text-align: center;     /* 맨 위 글자 위치 지정 */
 }
 #topdiv {
-    margin: 0% auto;
+    margin: 0% auto;        /* 맨 위 박스모델 마진 지정 */
 }
-#topimg {
-    margin: 0% auto;
-    padding-left: 30%;
+#topimg {           /* 이미지 지정 */
+    margin: 0% auto;    
+    padding-left: 30%; 
     padding-bottom: 15%;
     width: 250px;
     height: auto;
