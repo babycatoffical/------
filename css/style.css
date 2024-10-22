@@ -1,13 +1,21 @@
-table, th, td {
-    width: 540px;
-    height: 360px;
-    border: 1px solid black;
-    border-radius: 5%;
-    text-align: center;
-    margin: 0% auto;
+table {
+    width: 540px;   /* 너비지정 */
+    height: 360px;  /* 높이지정 */
+    border: 1px solid black;   /*  윤곽선 색 지정 */
+    border-radius: 2%;  /* 표 둥굴기 지정 */
+    text-align: center;     /*글자 위치 지정 */
+    margin: 0% auto;    /* 안 건드리는 것을 추천 */ 
+}
+td {
+    width: 540px;   /* 너비지정 */
+    height: 360px;  /* 높이지정 */
+    border: 1px solid black;    /* 윤곽선 색 지정 */
+    border-radius: 5%;  /* 표 둥굴기 지정 */
+    text-align: center;     /* 글자 위치 지정 */
+    margin: 0% auto;    /* 안 건드리는 것을 추천 */
 }
 h1 {
-    width: auto;
-    height: auto;
-    text-align: center;
+    width: auto;    /* 높이 지정 */
+    height: auto;   /* 높이 지정 */
+    text-align: center;     /* 글자 위치 지정 */
 }
