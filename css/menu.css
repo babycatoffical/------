@@ -24,7 +24,7 @@ a {
     background-color: rgb(256, 256, 256);
 }
 #button {
-    background-color: aqua;    /* 버튼 색 지정 */
+    background-color: rgb(201, 248, 156);    /* 버튼 색 지정 */
     transition-property: background-color;  /* 건드리지 않는 것을 추천 */
     transition: 0.3s ease;      /* 건드리지 않는 것을 추천 */
 }
