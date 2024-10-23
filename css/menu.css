@@ -9,7 +9,7 @@ table {
     width:  230px;              /* 너비 지정 */
     height: 25px;                /* 높이 지정 */
     border: 1px, solid, black;  /* 색 지정 */
-    margin: 0 auto;
+    margin: 0 auto;         /* 안건드는 것을 추천 */
     border-radius: 5%;  /* 표 자체의 둥굴기 지정 */
 }
 p {
@@ -20,7 +20,7 @@ a {
     text-decoration: none;  /* 하이퍼링크 밑줄 제거 */
 }
 #blank {    /* 안건드리는 것을 추천 */
-    border: 0;
+    border: 0;      
     background-color: rgb(256, 256, 256);
 }
 #button {
